@@ -1,0 +1,112 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    width: 90rem;
+    font-family: 'Montserrat' 'Fraunces';
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url("../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin: 10rem 0;
+}
+.image {
+    background-image: url("../images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15rem;
+    height: 25rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 0.5rem 2rem;
+}
+.info {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15rem;
+    height: 25rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: hsl(0, 0%, 100%);
+}
+.product_type {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    color: hsla(0, 0%, 0%, 0.5);
+    margin-top: 2rem;
+}
+.product_title {
+    font-size: 2rem;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+.description {
+    font-family: 'Montserrat';
+    font-size: 0.875rem;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+.amounts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.new_amount {
+    font-size: 2rem;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: hsl(158, 36%, 37%);
+}
+.old_amount {
+    margin-right: 2rem;
+}
+.add {
+    height: 2.5rem;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3125rem;
+    margin-top: 1rem;
+}
+.add:hover {
+    background-color:  hsl(158, 36%, 20%);
+}
+.add div {
+    background-image: url(../images/icon-cart.svg);
+    background-repeat: no-repeat;
+    height: 1rem;
+    width: 10%;
+}
+.add p {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+footer {
+    display: flex;
+    color: #000;
+    height: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+}

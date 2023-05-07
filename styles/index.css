@@ -2,7 +2,6 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
-    width: 90rem;
     font-family: 'Montserrat' 'Fraunces';
     font-size: 14px;
     background-color: hsl(30, 38%, 92%);
@@ -18,7 +17,7 @@ body {
 section {
     display: flex;
     justify-content: center;
-    margin: 10rem 0;
+    margin: 15rem 0;
 }
 .image {
     background-image: url("../images/image-product-desktop.jpg");
